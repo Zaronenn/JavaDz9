@@ -4,7 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Radioman2Test {
+public class RadioTest {
+
     Radio radio = new Radio();
 
     @Test
