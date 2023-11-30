@@ -118,4 +118,16 @@ class Radioman2Test {
         assertEquals(0, radio.getCurrentVolume());
     }
 
+    @Test
+    public void setStationTest() {
+        Radio rad = new Radio(20);
+
+        rad.setCurrentStation(15);
+
+        int expected = 15;
+        int actual = rad.getCurrentStation();
+
+        assertEquals(expected, actual);
+    }
+
 }
