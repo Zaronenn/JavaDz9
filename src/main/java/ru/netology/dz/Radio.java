@@ -1,6 +1,7 @@
 package ru.netology.dz;
 
-public class Radio {private int currentStation;
+public class Radio {
+    private int currentStation;
     private int minStation = 0;
     private int maxStation = 9;
     private int currentVolume;
